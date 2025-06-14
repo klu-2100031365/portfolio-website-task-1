@@ -1,0 +1,36 @@
+/* style.css */
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom section spacing */
+section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Contact form input focus styles */
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #2563eb; /* Tailwind's blue-600 */
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.3);
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #1d4ed8; /* Tailwind's blue-700 */
+  transition: background-color 0.3s ease;
+}
+
+/* Project cards hover effect */
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sudeep Varma | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-10 text-center shadow-md">
+    <h1 class="text-4xl font-bold mb-2">Sudeep Varma</h1>
+    <p class="text-lg">Full Stack Developer | Cloud Enthusiast</p>
+  </header>
+
+  <!-- Projects Section -->
+  <section class="p-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-6 text-center">Projects</h2>
+    <div class="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
+      <!-- Project Card 1 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <img src="assets/project1.png" alt="Project 1" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold mb-2">XOX Game</h3>
+          <p class="text-gray-700">A responsive game built with React.js providing a user-friendly experience.</p>
+        </div>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <img src="assets/project2.png" alt="Project 2" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold mb-2">Portfolio Website</h3>
+          <p class="text-gray-700">A personal portfolio built with HTML, Tailwind CSS, and JavaScript.</p>
+        </div>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <img src="assets/project3.png" alt="Project 3" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-bold mb-2">E-Commerce Landing Page</h3>
+          <p class="text-gray-700">A responsive landing page with a modern layout and dark mode toggle.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="p-6 max-w-xl mx-auto bg-white shadow-md rounded mt-10">
+    <h2 class="text-3xl font-semibold mb-6 text-center">Contact Me</h2>
+    <form action="https://formsubmit.co/datlasudeep@gmail.com" method="POST" class="space-y-4" id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" required />
+      <input type="email" name="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" required />
+      <textarea name="message" placeholder="Your Message" class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" required></textarea>
+
+      <!-- Optional Hidden Fields -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://example.com/thank-you.html">
+
+      <div class="text-center">
+        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded transition-colors duration-300">Send Message</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center mt-10 p-4 text-sm text-gray-500">
+    &copy; 2025 Sudeep Varma. All rights reserved.
+  </footer>
+
+</body>
+</html>
